@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cards-style.css">
+    <link rel="stylesheet" href="Style-nave.css">
+    <link rel="stylesheet" href="Search.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>KnS-Uni</title>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <p>KnS University</p>
+    <a href="#home" class="active">Home</a>
+    <a href="#news">Catalog</a>
+    <a href="#contact">Career guidance</a>
+    <a href="#about">Blog</a>
+    <a href="#about">Class Room</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<!-- This is for the barner image after the nav bar -->
+<div class="baner-container">
+    <img src="Barner_img.jpg" alt="Children enjoying our content" height="480" style="width:100%;">
+    <div class="centered">Build your Society <br> </div>
+    <div class="bottom-right">Build skills for today, tomorrow, and beyond. </div>
+    <div class="top-right">Welcome to future-facing education.</div>
+
+</div>
+
+<!-- The Search -->
+<form class="Search" action="#">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<div class="flex-container">
+    <div class="category">computing
+        <div class="flex-container2">
+            <div class="card">
+                <img src="java%20logo.jpg">
+                <p>this is an introduction to java</p>
+                <p><a href="#">Enroll</a></p>
+            </div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+        </div>
+    </div>
+    <div class="category" >Medicine
+        <div class="flex-container2">
+            <div class="card">
+
+            </div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+        </div>
+    </div>
+    <div class="category" >Engineering
+        <div class="flex-container2">
+            <div class="card">
+
+            </div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+        </div>
+    </div>
+    <div class="category">Humanities
+        <div class="flex-container2">
+            <div class="card">
+
+            </div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+        </div>
+    </div>
+</div>
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+} else {
+x.className = "topnav";
+}
+}
+</script>
+</body>
+</html>
